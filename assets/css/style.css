@@ -1,0 +1,46 @@
+body {
+    background-image: url("../images/background1192x670.jpg");
+}
+h1 {
+    color: cyan;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#timerBox {
+    color: cyan;
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    color: cyan;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: underline;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 30px;
+
+}
+
+.answer {
+    color: cyan;
+    font-size: 22px;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+
+
+
+
+
+#test-done {
+    visibility: hidden;
+    background-color: black;
+    color: cyan;
+    text-align: center
+}

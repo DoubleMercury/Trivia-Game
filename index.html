@@ -7,11 +7,53 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     
-    
-    <title>Document</title>
+    <title>80's Trivia Game</title>
 </head>
 <body>
-    
+    <h1>Are You an 80's Kid??</h1>
+        <div id = "timerBox">Time Left: 20
+        </div>
+
+<form id="trivia" name="trivia">
+
+<p>What is the name of the sword featured in the series "Thundercats"?</p>
+<input type="radio" id="mc" name="question1" value="SwordOfGreyskull"><span class="answer">Sword of Greyskull</span><br>
+<input type="radio" id="mc" name="question1" value="SwordOfOmens"><span class="answer">Sword of Omens</span><br>
+<input type="radio" id="mc" name="question1" value="SwordOfThunder"><span class="answer">Sword of Thunder</span><br>
+
+<p>Who did Optimus Prime pass the Hero Matrix to?</p>
+<input type="radio" id="mc" name="question2" value="Soundwave"><span class="answer">Soundwave</span><br>
+<input type="radio" id="mc" name="question2" value="Bumblebee"><span class="answer">Bumblebee</span><br>
+<input type="radio" id="mc" name="question2" value="Hot-Rod"><span class="answer">Hot-Rod</span><br>
+
+<p>Magnum P.I. was set where?</p>
+<input type="radio" id="mc" name="question3" value="Miami"><span class="answer">Miami</span><br>
+<input type="radio" id="mc" name="question3" value="Hawaii"><span class="answer">Hawaii</span><br>
+<input type="radio" id="mc" name="question3" value="LosAngeles"><span class="answer">Los Angeles</span><br>
+
+<p>Where was ALF from?</p>
+<input type="radio" id="mc" name="question4" value="Vulcan"><span class="answer">Vulcan</span><br>
+<input type="radio" id="mc" name="question4" value="Endor"><span class="answer">Endor</span><br>
+<input type="radio" id="mc" name="question4" value="Melmac"><span class="answer">Melmac</span><br>
+
+<p>Inspector Gadget's niece is named what?</p>
+<input type="radio" id="mc" name="question5" value="Alice"><span class="answer">Alice</span><br>
+<input type="radio" id="mc" name="question5" value="Penny"><span class="answer">Penny</span><br>
+<input type="radio" id="mc" name="question5" value="Betty"><span class="answer">Betty</span><br>
+
+
+
+
+
+<input id="finishBtn" type="button" value="Submit" onclick="tally();">
+
+</form>
+
+<div id="test-done">
+    <p id="number-correct"></p>
+</div>
+
 </body>
 </html>
