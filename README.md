@@ -15,10 +15,10 @@ Sweet Sweet free 80's Retro New Wave background that I finally got to work becau
 
 ### Technologies Used
 
-*HTML
-*CSS
-*GOOGLE FONTS
-*JAVASCRIPT/JQUERY
+* HTML
+* CSS
+* GOOGLE FONTS
+* JAVASCRIPT/JQUERY
 
 ### Future Improvements
 
