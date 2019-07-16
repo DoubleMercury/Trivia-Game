@@ -3,7 +3,7 @@
 
 Timed trivia game with click option answers
 
-###Overview
+### Overview
 
 Simple timer made with setInterval that increments down a variable every 1sec.
 
@@ -15,10 +15,10 @@ Sweet Sweet free 80's Retro New Wave background that I finally got to work becau
 
 ### Technologies Used
 
--HTML
--CSS
--GOOGLE FONTS
--JAVASCRIPT/JQUERY
+*HTML
+*CSS
+*GOOGLE FONTS
+*JAVASCRIPT/JQUERY
 
 ### Future Improvements
 
